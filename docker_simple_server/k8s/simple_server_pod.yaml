@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: docker_simple_server
+  name: docker-simple-server
 spec:
   containers:
-  - name: docker_simple_server
+  - name: docker-simple-server
     image: netlen2100/docker_simple_server:latest

@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-      - name: docker_simple_server
+      - name: docker-simple-server
         image: netlen2100/docker_simple_server
       restartPolicy: Never
   backoffLimit: 4
