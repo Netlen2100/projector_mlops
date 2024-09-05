@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: simple-server-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: docker_simple_server
+        image: netlen2100/docker_simple_server
+      restartPolicy: Never
+  backoffLimit: 4
